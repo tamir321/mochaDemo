@@ -1,0 +1,26 @@
+{
+  "name": "mochademo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamir321/mochaDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamir321/mochaDemo/issues"
+  },
+  "homepage": "https://github.com/tamir321/mochaDemo#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
