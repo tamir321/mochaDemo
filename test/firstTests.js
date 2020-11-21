@@ -8,13 +8,13 @@ describe('first Tests', ()=> {
    console.log("before was here ")
   });
   context('should return 6', function() {
+    
     it('three arguments', function() {
-     
-     
       expect(sum(1,2,3)).to.equal(6)
     })
-
+//specify
     specify('two arguments', function() {
+      console.log("test two arguments started")
       const a =3
       const b =6 
       
