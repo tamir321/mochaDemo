@@ -24,7 +24,7 @@
             ],
             "stopOnEntry": false,
             "args": [
-                "test/firstTest.js"
+                "test/firstTests.js"
             ],
             "env": {
                 "NODE_ENV": "test"

@@ -18,7 +18,11 @@
   "homepage": "https://github.com/tamir321/mochaDemo#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "chai-http": "^4.3.0",
+    "delay": "^4.4.0",
+    "mocha": "^8.2.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "nyc": "^15.1.0",

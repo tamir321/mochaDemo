@@ -18,7 +18,7 @@ describe('first Tests', ()=> {
       const a =3
       const b =6 
       
-      expect(sum(a,b)).to.equal(6)
+      expect(sum(a,b)).to.equal(9)
     })
   })
 
