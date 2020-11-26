@@ -1,10 +1,12 @@
+ 
+ require('dotenv').config();
  const delay = require('delay');
  const chai = require('chai');
  const chaiHttp = require('chai-http');
  const path = require('path');
  const expect = chai.expect;
 
- const apiServerUrl = "localhost:3000"
+ 
  
 
  chai.use(chaiHttp);
@@ -13,11 +15,13 @@
     getRandomInt
     } = require(path.join(process.cwd(),'utils/name'))
  
+const catid =  process.env.CATID
+const apiServerUrl = process.env.SERVERURL
 
 describe("cats Test",()=>{
-
     const catid = "5fb039872f25411c082b28ce"
-    it("get cats should returen at list more than 1 cat",async ()=>{
+    
+    it("get dogs should returen at list more than 1 cat",async ()=>{
         const res = await chai.request(apiServerUrl)
         .get('/cats')
 
