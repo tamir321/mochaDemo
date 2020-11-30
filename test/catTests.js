@@ -21,7 +21,7 @@ const apiServerUrl = process.env.SERVERURL
 describe("cats Test",()=>{
     const catid = "5fb039872f25411c082b28ce"
     
-    it("get dogs should returen at list more than 1 cat",async ()=>{
+    it("get cats should returen at list more than 1 cat",async ()=>{
         const res = await chai.request(apiServerUrl)
         .get('/cats')
 
