@@ -18,7 +18,7 @@ describe('first Tests', ()=> {
       console.log("test two arguments started")
       const a =3
       const b =6
-       
+
       
       expect(sum(a,b)).to.equal(6)
       console.log(this.test.fullTitle() + " ended");
@@ -39,21 +39,26 @@ describe('first Tests', ()=> {
 })
 
 
+describe.skip("skip do not run",()=>{
 
-before(function() {
-  // runs once before the first test in this block
- console.log(`Before  ${this.test.fullTitle()} was here `)
-});
-
-beforeEach(function() {
-   // runs before each test in this block
-   console.log(`Before each ${this.test.fullTitle()} was here `)
- });
-
-
- afterEach(function() {
-  // runs once after the last test in this block
-  console.log(`After each for ${this.test.fullTitle()} was here `)
+  before(function() {
+    // runs once before the first test in this block
+   console.log(`Before  ${this.test.fullTitle()} was here `)
+  });
   
-});
+  beforeEach(function() {
+     // runs before each test in this block
+     console.log(`Before each ${this.test.fullTitle()} was here `)
+   });
+  
+  
+   afterEach(function() {
+    // runs once after the last test in this block
+    console.log(`After each for ${this.test.fullTitle()} was here `)
+    
+  });
+
+  //debugging issue : netstat -tulpn | grep 9229
+})
+
 
